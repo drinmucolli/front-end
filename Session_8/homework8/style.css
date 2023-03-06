@@ -1,0 +1,13 @@
+body{
+    background-color: olivedrab;
+}
+nav{
+    border: 3px solid olive;
+}
+.box{
+    border: 3px solid olive;
+    display: inline-block;
+    margin: 0 10%;
+}
+
+

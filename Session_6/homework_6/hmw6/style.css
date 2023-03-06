@@ -1,0 +1,13 @@
+h1{
+    color: darkblue ; text-align: center;
+}
+li + li{
+    color: red;} + li{color: red;
+    }
+section > h2{
+    color: lightblue;
+}
+article > h2{
+    color: cyan;
+}
+section *{text-align: center;}

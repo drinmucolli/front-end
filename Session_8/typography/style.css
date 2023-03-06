@@ -1,0 +1,16 @@
+p{
+    color: paleturquoise;
+    font-size: 26px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight: bolder;  
+    line-height: 1.2;
+    letter-spacing: 3px;
+    word-spacing: 7px;
+}
+h1{
+    text-transform: uppercase;
+}
+a{
+    text-decoration: none;
+    color: black;
+}

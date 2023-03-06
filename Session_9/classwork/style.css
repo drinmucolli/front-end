@@ -1,0 +1,28 @@
+.box{
+    border: 3px solid red;
+    height: 50px;
+    width: 50px;
+    position: absolute;
+}
+.box-1{
+    top: 0;
+    left: 0;
+}
+.box-2{
+    top: 0;
+    right: 0;
+}
+.box-3{
+    bottom: 0;
+    left: 0;
+}
+.box-4{
+    bottom: 0;
+    right: 0;
+}
+.box-5{
+    background-color: aquamarine;
+    right: 50%;
+    bottom: 50%;
+    transform: translate(50%, 50%);
+}

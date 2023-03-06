@@ -1,0 +1,28 @@
+.wrapper{
+    display: flex;
+    justify-content: space-around;
+}
+.box{
+    width: 200px;
+    height: 200px;
+    background-color: black;
+    border: 2px solid red;
+}
+@media only screen and (max-width: 1400px) {
+    .box{
+        background-color: blue;
+    }
+}
+@media only screen and (max-width: 615px) {
+    .box{
+        background-color: yellow;
+        flex-direction: column;
+    }
+    
+}
+.wrapper{
+    gap: 10px;
+}
+.box-1{
+    display: none;
+}

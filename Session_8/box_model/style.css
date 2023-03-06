@@ -1,0 +1,37 @@
+* {
+    box-sizing: border-box;
+}
+body{
+    margin: 0px;
+}
+.box {
+    height: 150px;
+    width: 150px;
+}
+
+.box-1 {
+    background-color: tomato;
+    padding-left: 40px;
+    padding-top: 20px;
+    padding-right: 20px;
+    margin-bottom: 20px;
+    border-left-width: 5px;
+    border-left-color: black;
+    border-left-style: solid;
+    border-left: 5px solid blue;
+}
+
+.box-2 {
+    background-color: lightgreen;
+    border: 3px solid red;
+    margin-left: 20px;
+}
+
+.box-3 {
+    background-color: aquamarine;
+    margin: 5px 10px 2px 10px;
+}
+
+.box-4 {
+    background-color: blueviolet;
+}

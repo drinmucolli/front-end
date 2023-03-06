@@ -1,0 +1,26 @@
+body{
+    background-color: red;
+}
+header{
+    background-color: blue;
+    height: 15vh;
+}
+
+main{
+    background-image: url("images/10266_Minimalist-iPhone-Photos-30_w1120.jpg");
+    height: 70vh;
+}
+footer{
+    background-color: white;
+    height: 10vh;
+}
+section{
+    background-color: yellow;
+    
+}
+blockquote{
+    width: 20%;
+}
+section > h2{
+    text-align: center;
+}

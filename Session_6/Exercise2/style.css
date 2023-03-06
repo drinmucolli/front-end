@@ -1,0 +1,12 @@
+  h3{
+    color: tomato;
+}
+h2 + h3{
+    color: green;
+}
+article > div + p{
+    color: blue;
+}
+p{
+    color: green;
+}

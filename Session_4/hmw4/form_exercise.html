@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <form>
+        <fieldset>
+            <legend>
+                Personal data:
+            </legend>
+            <div>
+                <label for="Username">Username:</label>
+                <input type="text" id="Username" placeholder="example123">
+            </div>
+            <div>
+                <label for="email">Email:</label>
+                <input type="emial" id="email" placeholder="example@example.com" required>
+            </div>
+            <div>
+                <label for="dob">Date of birth:</label>
+                <input type="date" id="dob">
+            </div>
+        </fieldset>
+
+        <fieldset>
+            <legend>Favorite language:</legend>
+            <div>
+                <input type="radio" id="html" name="fav-lang">
+                <label for="html">HTML</label>
+            </div>
+            <div>
+                <input type="radio" id="css" name="fav-lang">
+                <label for="css">CSS</label>
+            </div>
+            <div>
+                <input type="radio" id="js" name="fav-lang">
+                <label for="javascript">Javascript</label>
+            </div>
+
+        </fieldset>
+        <fieldset>
+            <legend>Select only the car brands</legend>
+            <div>
+                <input type="checkbox" id="bmw">
+                <label for="bmw">BMW</label>
+
+            </div>
+            <div>
+                <input type="checkbox" id="microsoft">
+                <label for="microsoft">Microsoft</label>
+
+            </div>
+            <div>
+                <input type="checkbox" id="dacia">
+                <label for="dacia">Dacia</label>
+
+            </div>
+            <div>
+                <input type="checkbox" id="nutribullet">
+                <label for="nutribullet">Nutribullet</label>
+
+            </div>
+            <div>
+                <input type="checkbox" id="none">
+                <label for="none">None</label>
+
+            </div>
+            <div>
+                <label for="comment">Leave a comment:</label>
+                <br>
+                <textarea id="comment" cols="20" rows="5"></textarea>
+            </div>
+            <button type="submit">Submit</button>
+        </fieldset>
+    </form>
+</body>
+
+</html>

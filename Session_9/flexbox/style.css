@@ -1,0 +1,38 @@
+nav {
+    border: 2px solid black;
+    background-color: lightcyan;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+nav {
+    border: 2px solid black;
+    background-color: lightblue;
+    height: 60px;
+}
+
+ul {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    height: 100%;
+    align-items: center;
+}
+
+li {
+    list-style: none;
+}
+
+div {
+    height: 2000px;
+    background-color: lightsalmon;
+}
+
+div+div {
+    height: 2000px;
+    background-color: lightgreen;
+}

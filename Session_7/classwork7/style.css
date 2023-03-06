@@ -1,0 +1,27 @@
+h1 {
+    color: darkblue;
+    text-align: center;
+}
+
+li+li {
+    color: red;
+}
+
+main h3 {
+    color: violet;
+    text-align: center;
+}
+
+section h3 {
+    color: pink;
+    text-align: center;
+}
+
+p {
+    color: gold;
+}
+
+footer p {
+    color: darkred;
+    text-align: center;
+}

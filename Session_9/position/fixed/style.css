@@ -1,0 +1,17 @@
+li{
+    display: inline-block;
+    margin: 0 10%;
+}
+nav{
+    border: 2px solid black;
+    position:fixed;
+    width: 100%;
+    background-color: lightcyan;
+div{
+    height: 2000px;
+    background-color: lightsalmon;
+}
+div+div{
+    height: 2000px;
+    background-color: lightgreen;
+}

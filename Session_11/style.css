@@ -1,0 +1,57 @@
+.box{
+    border: 1px solid red;
+}
+.wrapper{
+    height: 100vh;
+    display: grid;
+    grid-template-columns: repeat(6, 1fr);
+    grid-template-rows: repeat(6, 1fr);
+    gap: 10px;
+    grid-template-areas: 
+    "h h h h h h"
+    "s m m m m m"
+    "s m m m m m"
+    "s m m m m m"
+    "a a a a a a"
+    "f f f f f f"
+    ;
+}
+.box-1{
+    /* /* grid-column-start: 1;
+    grid-column-end: 5; */
+    /* grid-column: 1/-1; */ 
+    grid-area: h;
+}
+.box-2{
+    /* /* grid-column-start: 1;
+    grid-column-end: 3; */
+    /* grid-column: 1/3; */
+    /* grid-row-start: 2;
+    grid-row-end: 4; */
+    /* grid-row: 2/4; */ 
+    grid-area: m;
+}
+.box-3{
+    /* grid-column-start: 3;
+    grid-column-end: 5;
+    grid-row-start: 2;
+    grid-row-end: 4; */
+    grid-area: a;
+}
+.box-4{
+grid-area: f;
+}
+.box-5{
+    grid-area: s;
+}
+@media only screen and (max-width:600px){
+    .wrapper{
+        grid-template-areas: 
+        "h h h h h h"
+        "s s s s s s"
+        "m m m m m m"
+        "m m m m m m"
+        "a a a a a a"
+        "f f f f f f";
+    }
+}
